@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const artifactsPath = "./artifacts/contracts";
-const outputFile = "obfuscated_bytecodes_batch03.csv";
+const outputFile = "original_bytecodes_batch05.csv";
 
 if (!fs.existsSync(outputFile)) {
     fs.writeFileSync(outputFile, "file_name,contract_name,bytecode\n");

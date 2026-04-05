@@ -1,7 +1,7 @@
 import csv
 ## if obfuscated change the input and output file names to the obfuscated ones
-input_file = "results/batch03/obfuscated_bytecodes_batch03.csv"
-output_file = "main_obfuscated_bytecodes_batch03.csv"
+input_file = "results/batch05/original_bytecodes_batch05.csv"
+output_file = "main_original_bytecodes_batch05.csv"
 
 data = {}
 
